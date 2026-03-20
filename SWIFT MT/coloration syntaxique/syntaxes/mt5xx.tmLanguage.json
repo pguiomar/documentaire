@@ -1,0 +1,49 @@
+{
+	"name": "mt5xx",
+	"patterns": [
+		{
+			"include": "#basic-blocks"
+		}
+		
+	],
+	"repository": {
+		"basic-blocks": {
+			"patterns": [
+				
+				{
+					"name": "bic.mt5xx",
+					"match": "(PARBFRPPAMDG)"
+				},
+				{
+					"name": "entete.mt5xx",
+					"match": "{2\\:O(54[0-9])"
+				},
+				{
+					"name": "20C.mt5xx",
+					"match": "(20C.*)"
+				},
+				{
+					"name": "35B.mt5xx",
+					"match": "(35B.*)"
+				},
+				{
+					"name": "90B.mt5xx",
+					"match": "(90B.*)"
+				},
+				{
+					"name": "95R.mt5xx",
+					"match": "(95R.*)"
+				},
+				{
+					"name": "95P.mt5xx",
+					"match": "(95P.*)"
+				},
+				{
+					"name": "19A.mt5xx",
+					"match": "(19A.*)"
+				}
+			]
+		}
+	},
+	"scopeName": "source.mt"
+}

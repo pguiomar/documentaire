@@ -1,0 +1,28 @@
+{
+  "name": "mt5xx",
+  "displayName": "mt5xx-syntax",
+  "description": "SWIFT MT coloration syntaxique",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "mt5xx",
+      "aliases": ["SWIFT MT5XX", "mt5xx"],
+      "extensions": [".mt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "mt5xx",
+      "scopeName": "source.mt",
+      "path": "./syntaxes/mt5xx.tmLanguage.json"
+    }]
+  },
+  "__metadata": {
+    "size": 9493
+  }
+}
