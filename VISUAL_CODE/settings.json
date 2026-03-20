@@ -1,5 +1,5 @@
 {
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.shell.windows": "",
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
     "editor.insertSpaces": false,
@@ -401,10 +401,10 @@
     "[xml]": {
         "editor.defaultFormatter": "DotJoshJohnson.xml"
     },
-    "python.defaultInterpreterPath": "C:\\Users\\phguiomar\\Anaconda3\\python.exe",
+    "python.defaultInterpreterPath": "",
     "gauge.launch.enableDebugLogs": true,
     "xml.server.binary.trustedHashes": [
-        "34f51b1d8c3b85bf8af72502c3a52ca841d11cf76f848be198631e0dd2b7e169"
+        ""
     ],
     "editor.unicodeHighlight.allowedCharacters": {
         "é": true
@@ -422,8 +422,7 @@
         "editor.lineHighlightBackground": "#000000"
     },
     "security.allowedUNCHosts": [
-        "srv-fic",
-        "wsl.localhost"
+    
     ],
     "explorer.confirmDelete": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
