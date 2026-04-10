@@ -2,4 +2,4 @@
 
 sudo sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list
 sudo sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list.d/*
-apt update && apt full-upgrade
+apt update && sudo apt full-upgrade
