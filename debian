@@ -3,3 +3,8 @@
 sudo sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list
 sudo sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list.d/*
 apt update && sudo apt full-upgrade
+
+
+
+
+deb https://deb.debian.org/debian-security bookworm-security main
