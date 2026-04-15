@@ -1,12 +1,15 @@
 # DEBIAN
 
+# Changement de version
 sudo sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list
 sudo sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list.d/*
 apt update && sudo apt full-upgrade
 
-
-
+# Sécurité
 sudo sed -i 's/security.debian.org/deb.debian.org/g' /etc/apt/sources.list
 sudo sed -i 's/security.debian.org/deb.debian.org/g' /etc/apt/sources.list.d/*
 
-# deb https://deb.debian.org/debian-security bookworm-security main
+# Réparation
+sudo apt --fix-broken install
+sudo apt full-upgrade
+
