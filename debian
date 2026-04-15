@@ -13,3 +13,8 @@ sudo sed -i 's/security.debian.org/deb.debian.org/g' /etc/apt/sources.list.d/*
 sudo apt --fix-broken install
 sudo apt full-upgrade
 
+
+# Docker
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo systemctl start docker
+
